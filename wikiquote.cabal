@@ -33,7 +33,7 @@ executable wikiquote
 
     other-extensions: ForeignFunctionInterface CApiFFI OverloadedStrings
 
-    build-depends: base ^>=4.14.3.0, http-conduit ^>= 2.3.8, tagsoup ^>= 0.14.8, bytestring ^>= 0.11.1.0, text ^>= 1.2.5.0, base64-bytestring ^>= 1.2.1.0, temporary ^>= 1.3
+    build-depends: base ^>=4.14.3.0, http-conduit ^>= 2.3.8, tagsoup ^>= 0.14.8, bytestring ^>= 0.11.1.0, text ^>= 1.2.5.0, base64-bytestring ^>= 1.2.1.0, temporary ^>= 1.3, time ^>= 1.9.3
 
     include-dirs: /usr/include/gdk-pixbuf-2.0 /usr/include/glib-2.0 /usr/lib64/glib-2.0/include /usr/include/libmount /usr/include/blkid
 
